@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color:lightskyblue;
+  }
+  .division {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 8px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .display {
+    grid-column: span 4;
+    text-align: right;
+    padding: 10px;
+    background-color: white;
+    font-size: 1.5em;
+    color:black;
+    font-size:50px;
+  }
+  .button1{
+      background-color:grey;
+      border-radius:5px;
+      color:white;
+      font-size:30px;
+  }

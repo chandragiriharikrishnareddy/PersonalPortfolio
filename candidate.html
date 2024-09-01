@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candidate Dashboard - Job Board</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color:darkcyan;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    main {
+      margin: 20px;
+    }
+
+    section {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-section {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      background-color:lightcoral;
+    }
+
+    .profile-info, .job-applications {
+      flex: 1;
+    }
+
+    .profile-info h2, .job-applications h2 {
+      margin-bottom: 10px;
+    }
+
+    .profile-info p {
+      margin-bottom: 15px;
+      background-color:lightskyblue;
+      color:black;
+    }
+
+    .application-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .application-item {
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+      background-color:lightgoldenrodyellow;
+      padding-left:10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Job Board</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="job-listings.html">Job Listings</a>
+    <a href="employer-dashboard.html">Employer Dashboard</a>
+    <a href="candidate-dashboard.html">Candidate Dashboard</a>
+  </nav>
+
+  <main>
+    <section style="background-color:darkkhaki;">
+      <h2 style="color:white;">Candidate Dashboard</h2>
+
+      <div class="profile-section">
+        <div class="profile-info">
+          <h2 style="color:white;">Your Profile</h2>
+          <p><strong>Name:</strong>Chandragiri Harikrishnareddy</p>
+          <p><strong>Email:</strong>chandragirirharikrishnareddy@gmail.com</p>
+          <p><strong>Skills:</strong> JavaScript, React, Node.js</p>
+        </div>
+
+        <div class="job-applications">
+          <h2 style="color:white;">Your Job Applications</h2>
+          <ul class="application-list">
+            <li class="application-item">
+              <strong>Job Title:</strong> Web Developer
+              <p><strong>Company:</strong> Web Solutions Inc.</p>
+              <p><strong>Status:</strong> Pending</p>
+            </li>
+            <li class="application-item">
+              <strong>Job Title:</strong> Marketing Specialist
+              <p><strong>Company:</strong> Marketing Pros LLC</p>
+              <p><strong>Status:</strong> Accepted</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Job Board</p>
+  </footer>
+</body>
+</html>
