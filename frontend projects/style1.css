@@ -1,0 +1,169 @@
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+header h1 {
+    font-size: 2.5em;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2em;
+}
+.hero {
+    background-image: url("C:\Users\chand\Downloads\bvsr iamge.jpg");
+    background-size: cover;
+    background-color: rgb(194, 119, 7);
+    text-align: center;
+    padding: 100px 0;
+}
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.cta-button {
+    background-color: #ff3366;
+    color: rgb(25, 25, 195);
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+    background-color: #e6295f;
+}
+.features {
+    background-color:rgb(74, 131, 74);
+    padding: 80px 0;
+}
+.features h3 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.testimonial {
+    background-color:rgb(49, 49, 120);
+    color: white;
+    padding: 80px 0;
+}
+.testimonial h3 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.quote {
+    text-align: center;
+}
+blockquote {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+cite {
+    font-style: normal;
+    font-size: 1.2em;
+}
+footer {
+    background-color:rgb(49, 49, 120);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px 0;
+    }
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero {
+        padding: 80px 0;
+    }
+
+    .hero h2 {
+        font-size: 2.5em;
+    }
+
+    .hero p {
+        font-size: 1.1em;
+    }
+
+    .cta-button {
+        font-size: 1em;
+    }
+
+    .features {
+        padding: 60px 0;
+    }
+
+    .features h3 {
+        font-size: 2em;
+    }
+
+    .feature img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .testimonial {
+        padding: 60px 0;
+    }
+
+    .testimonial h3 {
+        font-size: 2em;
+    }
+
+    .quote blockquote {
+        font-size: 1.2em;
+    }
+
+    cite {
+        font-size: 1em;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+}
